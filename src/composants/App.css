@@ -1,0 +1,191 @@
+html
+{
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  width: 100%;
+  height: 100%;
+}
+
+div#root {
+  width: 100%;
+  height: 100%;
+}
+
+
+canvas
+{
+  width: 100%;
+  height: 100%;
+}
+
+.login_container.container {
+  width: 500px;
+  height: auto;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+  top: 20vh;
+  border-radius: 10px;
+}
+
+.login_container > img {
+  text-align: center;
+}
+
+.login_form
+{
+  color: white;
+}
+
+.login_button > button {
+  box-sizing: border-box;
+  margin: 1px;
+}
+
+.login_button
+{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnregister {
+  width: 100%;
+}
+
+.btnregisterlink {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.test {
+  box-sizing: border-box;margin: 1px;
+}
+
+.trading_back
+{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.trading_name
+{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.trading_name_1.col-xl-2 {
+  overflow-y: scroll;
+  height: 100%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* scrollbar */
+
+.trading_graphe.col-xl-8 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.trading_name.row {
+  margin: 0;
+}
+
+.trading_back.container-fluid {
+  padding: 0;
+}
+
+.trading_interface.col
+{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.title_right
+{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.valeur_right
+{
+  font-weight: 400;
+  color: #b3b3b3;
+}
+
+.name_valeur_right
+{
+  font-weight: 600;
+}
+
+.register_block.container-fluid {
+  width: 50%;
+  position: relative;
+  top: 25%;
+}
+
+.form-group
+{
+  color: white;
+}
+
+.enterprise-item {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.enterprise-item:hover {
+  cursor: pointer;
+  padding-left: 15px;
+  background-color: #45aaf2;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar > .container {
+  margin: inherit;
+  max-width: 100%;
+}
+
+.spanbadge {
+  margin-right: 20px;
+}
+
+.badge-budget {
+  margin: 0;
+}
+
+
+
